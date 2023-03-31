@@ -12,10 +12,10 @@
     </parent>
 
     <groupId>org.csystem</groupId>
-    <artifactId>SmallConsoleGames</artifactId>
+    <artifactId>Small-Java-Console-Games</artifactId>
     <version>1.0.0</version>
-    <name>SmallConsoleGames</name>
-    <description>Generic Application Provider</description>
+    <name>Small-Java-Console-Games</name>
+    <description>Small console games</description>
 
     <repositories>
         <repository>
