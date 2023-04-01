@@ -1,7 +1,8 @@
+/Users/onur/Documents/GitHub/Small-Java-Console-Games/src/main/java/org/csystem/ozcan/context/AppContext.java
 /Users/onur/Documents/GitHub/Small-Java-Console-Games/src/main/java/org/csystem/ozcan/app/Menu.java
 /Users/onur/Documents/GitHub/Small-Java-Console-Games/src/main/java/org/csystem/ozcan/app/NewGameMenu.java
 /Users/onur/Documents/GitHub/Small-Java-Console-Games/src/main/java/org/csystem/ozcan/app/App.java
 /Users/onur/Documents/GitHub/Small-Java-Console-Games/src/main/java/org/csystem/ozcan/context/Star.java
+/Users/onur/Documents/GitHub/Small-Java-Console-Games/src/main/java/org/csystem/ozcan/crapsApp/CrapsApp.java
 /Users/onur/Documents/GitHub/Small-Java-Console-Games/src/main/java/org/csystem/ozcan/app/MenuApp.java
 /Users/onur/Documents/GitHub/Small-Java-Console-Games/src/main/java/org/csystem/ozcan/FindNumberApp/FindNumberApp.java
-/Users/onur/Documents/GitHub/Small-Java-Console-Games/src/main/java/org/csystem/ozcan/context/FindNumberContext.java

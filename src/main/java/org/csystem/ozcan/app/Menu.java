@@ -1,21 +1,24 @@
 package org.csystem.ozcan.app;
 
 import com.karandev.util.console.Console;
-import org.csystem.ozcan.context.FindNumberContext;
+import org.csystem.ozcan.context.AppContext;
 import org.csystem.ozcan.context.Star;
 
 public class Menu {
         public static void printMenu() {
             Star.print();
             Console.writeLine("1. Find The Number In My Mind");
-            Console.writeLine("2. Exit");
-            Console.writeLine("(More games will be added...)");
+            Console.writeLine("2. Craps");
+            Console.writeLine("3. .....");
+            Console.writeLine("4. .....");
+            Console.writeLine("5. Exit");
         }
 
         public static void doOption(int option) {
             switch (option) {
-                case 1 -> FindNumberContext.startText();
-                case 2 -> doExit();
+                case 1 -> AppContext.findNumberStartText();
+                case 2 -> AppContext.CrapsStartText();
+                case 3,4,5 -> doExit();
                 default -> doInvalidOption();
             }
         }
@@ -31,11 +34,10 @@ public class Menu {
         }
 
         public static void run() {
-            java.util.Scanner kb = new java.util.Scanner(System.in);
 
-            for (; ; ) {
+            while (true) {
                 printMenu();
-                doOption(Integer.parseInt(kb.nextLine()));
+                doOption(Console.readInt("Your option: "));
             }
         }
     }

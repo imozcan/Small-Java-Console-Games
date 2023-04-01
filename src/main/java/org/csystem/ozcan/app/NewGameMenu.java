@@ -1,8 +1,9 @@
 package org.csystem.ozcan.app;
 
 import com.karandev.util.console.Console;
-import org.csystem.ozcan.context.FindNumberContext;
+import org.csystem.ozcan.context.AppContext;
 import org.csystem.ozcan.context.Star;
+import org.csystem.ozcan.crapsApp.CrapsApp;
 
 public class NewGameMenu {
     public static void printMenu() {
@@ -23,7 +24,8 @@ public class NewGameMenu {
     public static void gameIdOption(int GameId)
     {
         switch (GameId) {
-            case 2121 -> FindNumberContext.startText();
+            case 1111 -> AppContext.findNumberStartText();
+            case 2222 -> CrapsApp.controller();
         }
     }
 

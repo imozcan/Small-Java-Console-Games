@@ -7,7 +7,7 @@ import java.util.Random;
 
 public class FindNumberApp {
     static int i = 1;
-    static int GameId = 2121;
+    static int GameId = 1111;
     static String Suffix;
 
     public static int GenerateRandom(Random random)
@@ -37,7 +37,7 @@ public class FindNumberApp {
             default -> Suffix = "Last";
         };
     }
-    public static void Controller()
+    public static void controller()
     {
         var GeneratedNumber = GenerateRandom(new Random());
 
