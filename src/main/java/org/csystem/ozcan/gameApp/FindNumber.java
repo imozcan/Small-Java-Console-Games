@@ -1,11 +1,10 @@
-package org.csystem.ozcan.FindNumberApp;
+package org.csystem.ozcan.gameApp;
 
 import com.karandev.util.console.Console;
 import org.csystem.ozcan.app.NewGameMenu;
-
 import java.util.Random;
 
-public class FindNumberApp {
+public class FindNumber {
     static int i = 1;
     static int GameId = 1111;
     static String Suffix;
@@ -37,7 +36,7 @@ public class FindNumberApp {
             default -> Suffix = "Last";
         };
     }
-    public static void controller()
+    public static void run()
     {
         var GeneratedNumber = GenerateRandom(new Random());
 

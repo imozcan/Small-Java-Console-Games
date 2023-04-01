@@ -1,10 +1,10 @@
-package org.csystem.ozcan.crapsApp;
+package org.csystem.ozcan.gameApp;
 import com.karandev.util.console.Console;
 import org.csystem.ozcan.app.NewGameMenu;
 import org.csystem.ozcan.context.Star;
 import java.util.Random;
 
-public class CrapsApp {
+public class Craps {
     public static int diceOne, diceTwo;
     public static int GameId = 2222;
     public static java.util.Random random;
@@ -23,9 +23,9 @@ public class CrapsApp {
     {
         Console.readInt("Dices rolling Press(1) drop to dices ");
         Console.writeLine("First Dice :%d %nSecond Dice :%d", diceOne, diceTwo);
-        Star.print();
+        Star.print(36);
     }
-    public static void controller()
+    public static void run()
     {
         var sumDices = rollDice();
 

@@ -1,39 +1,48 @@
 package org.csystem.ozcan.context;
 
 import com.karandev.util.console.Console;
-import org.csystem.ozcan.FindNumberApp.FindNumberApp;
-import org.csystem.ozcan.crapsApp.CrapsApp;
-
-import java.util.Random;
+import org.csystem.ozcan.gameApp.FindNumber;
+import org.csystem.ozcan.gameApp.Craps;
+import org.csystem.ozcan.gameApp.FlipCoin;
 
 public class AppContext {
     public static void findNumberStartText()
     {
-        Star.print();
+        Star.print(36);
         Console.writeLine("- Hello...");
         Console.writeLine("- This is a number guessing Game in terminal");
         Console.writeLine("- I got a number in my mind, it's between 0 to 50");
         Console.writeLine("- Let's see if you can find this number in 3 times with a little help :)");
-        Star.print();
+        Star.print(36);
 
-        FindNumberApp.controller();
+        FindNumber.run();
     }
     public static void CrapsStartText()
     {
-        Star.print();
+        Star.print(36);
         Console.writeLine("- Hello...");
         Console.writeLine("- This is Craps Game in terminal");
         Console.write("- Do you want to read games rule [Yes=1 --- No=2] ");
         if (Console.readInt() == 1)
             CrapsRuleText();
 
-        Star.print();
-        CrapsApp.controller();
+        Star.print(36);
+        Craps.run();
+    }
+
+    public static void flipCoinStartText()
+    {
+        Star.print(36);
+        Console.writeLine("- Hello...");
+        Console.writeLine("- This is Flip Coin Game in terminal");
+        Star.print(36);
+
+        FlipCoin.run();
     }
 
     public static void CrapsRuleText()
     {
-        Star.print();
+        Star.print(36);
         Console.writeLine("- The game is played with two dice");
         Console.writeLine("- The player who rolls the dice plays the game against the dealer");
         Console.writeLine("- The total value of the two dice rolled");
@@ -46,7 +55,3 @@ public class AppContext {
         Console.writeLine("- If the player manages to roll the same result again before the 7 comes, he/she wins");
     }
 }
-
-/*------------------------------------------------------------------------------------------------------
-
- -------------------------------------------------------------------------------------------------------*/

@@ -1,8 +1,9 @@
 org/csystem/ozcan/app/NewGameMenu.class
-org/csystem/ozcan/crapsApp/CrapsApp.class
+org/csystem/ozcan/gameApp/Craps.class
+org/csystem/ozcan/gameApp/FlipCoin.class
 org/csystem/ozcan/app/MenuApp.class
 org/csystem/ozcan/context/Star.class
 org/csystem/ozcan/app/App.class
 org/csystem/ozcan/context/AppContext.class
 org/csystem/ozcan/app/Menu.class
-org/csystem/ozcan/FindNumberApp/FindNumberApp.class
+org/csystem/ozcan/gameApp/FindNumber.class
